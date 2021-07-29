@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Uttar Kannada Tourism</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">Uttar Kannada</string>
+    <string name="nav_header_subtitle2">Karnataka, India</string>
+    <string name="menu_plces">All places</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="place_kumta">Kumta</string>
+    <string name="place_ankola">Ankola</string>
+    <string name="place_honnavar">Honnavar</string>
+    <string name="place_karwar">Karwar</string>
+    <string name="place_sirsi">Sirsi</string>
+    <string name="place_yellapur">Yellapur</string>
+    <string name="place_siddapur">Siddapur</string>
+    <string name="place_bhatkal">Bhatkal</string>
+    <string name="place_joida">Joida</string>
+    <string name="place_haliyal">Haliyal</string>
+    <string name="place_mundgod">Mundgod</string>
+    <string name="place_Dandeli">Dandeli</string>
+    <string name="aboutus">About</string>
+    <string name="contactus">Contact us</string>
+    <string name="linkedin">
+        <a href="https://www.linkedin.com/in/kartik-hegde-3ab296170">Linkedin</a>
+    </string>
+    <string name="twitter">
+        <a href="https://twitter.com/KARTIK93461144?s=08">Twitter</a>
+    </string>
+    <string name="mailid">hgkartik2013@gmail.com</string>
+    <string name="aboutcont">App displays Interesting spots in Uttar Kannada district. On your new install just scroll down until the end so that app synchronize all the available places to yor phone. New places added by us will be updated automatically. If you like this app please share and support.</string>
+    <string name="whatsapp_num">8970542192</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="UKsubtxt">Browse all the interesting place around you</string>
+    <string name="link7">https://img.traveltriangle.com/blog/wp-content/uploads/2018/06/shiva-temple1.jpg</string>
+    <string name="name7">Murdeshwar</string>
+</resources>

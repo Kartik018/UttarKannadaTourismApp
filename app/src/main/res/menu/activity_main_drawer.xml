@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/drawer2">
+        <item
+            android:id="@+id/nav_Kumta"
+            android:title="@string/place_kumta"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Honnavar"
+            android:title="@string/place_honnavar"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Ankola"
+            android:title="@string/place_ankola"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Karwar"
+            android:title="@string/place_karwar"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Sirsi"
+            android:title="@string/place_sirsi"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Yellapur"
+            android:title="@string/place_yellapur"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Siddapur"
+            android:title="@string/place_siddapur"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Bhatkal"
+            android:title="@string/place_bhatkal"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Haliyal"
+            android:title="@string/place_haliyal"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Joida"
+            android:title="@string/place_joida"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Mundgod"
+            android:title="@string/place_mundgod"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+        <item
+            android:id="@+id/nav_Dandeli"
+            android:title="@string/place_Dandeli"
+            android:iconTint="@color/yellow_with_black"
+            android:icon="@drawable/ic_dashboard"/>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:iconTint="@color/purple_500"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="@string/aboutus"
+            android:icon="@drawable/information_desk"/>
+        <item
+            android:id="@+id/nav_contactus"
+            android:title="@string/contactus"
+            android:icon="@drawable/icons8_contact_us"/>
+
+    </group>
+
+
+</menu>

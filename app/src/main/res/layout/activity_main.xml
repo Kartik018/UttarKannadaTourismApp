@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wave_footer"
+        android:layout_marginBottom="10dp"
+        android:text="@string/UKsubtxt"
+        android:textAlignment="center"
+        android:textColor="#00003c"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints"/>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/wave_header"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/subtxtresize"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"/>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageView2"
+        android:indeterminateTint="@color/blue_black"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/white"
+        style="?android:attr/progressBarStyle"
+        android:id="@+id/pgbar">
+    </androidx.core.widget.ContentLoadingProgressBar>
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/wave_footer"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleY="-1"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

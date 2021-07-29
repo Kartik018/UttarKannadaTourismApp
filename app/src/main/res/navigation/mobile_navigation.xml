@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Kumta">
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tourismapp.ui.Gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_all" />
+
+    <fragment
+        android:id="@+id/nav_Kumta"
+        android:name="com.example.tourismapp.ui.Kumta.Kumta_Fragment"
+        android:label="@string/place_kumta"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Ankola"
+        android:name="com.example.tourismapp.ui.Ankola.AnkolaFragment"
+        android:label="@string/place_ankola"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Honnavar"
+        android:name="com.example.tourismapp.ui.Honnavar.Honnavarfragment"
+        android:label="@string/place_honnavar"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Karwar"
+        android:name="com.example.tourismapp.ui.Karwar.KarwarFragment"
+        android:label="@string/place_karwar"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Siddapur"
+        android:name="com.example.tourismapp.ui.Siddapur.SiddapurFragment"
+        android:label="@string/place_siddapur"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Sirsi"
+        android:name="com.example.tourismapp.ui.Sirsi.SirsiFragment"
+        android:label="@string/place_sirsi"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Yellapur"
+        android:name="com.example.tourismapp.ui.Yellapur.YellapurFragment"
+        android:label="@string/place_yellapur"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Bhatkal"
+        android:name="com.example.tourismapp.ui.Bhatkal.BhatkalFragment"
+        android:label="@string/place_bhatkal"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Joida"
+        android:name="com.example.tourismapp.ui.Joida.JoidaFragment"
+        android:label="@string/place_joida"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Haliyal"
+        android:name="com.example.tourismapp.ui.Haliyal.HaliyalFragment"
+        android:label="@string/place_haliyal"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Mundgod"
+        android:name="com.example.tourismapp.ui.Mundgod.MundgodFragment"
+        android:label="@string/place_mundgod"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_Dandeli"
+        android:name="com.example.tourismapp.ui.Dandeli.DandeliFragment"
+        android:label="@string/place_Dandeli"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/nav_desc_fragment"
+        android:name="com.example.tourismapp.descfragment"
+        tools:layout="@layout/fragment_descfragment" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.tourismapp.ui.About_us.AboutusFragment"
+        android:label="@string/aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.tourismapp.ui.contactus.ContactUs_Fragment"
+        android:label="@string/contactus"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/nav_gal_fragment"
+        android:name="com.example.tourismapp.ui.Gallery.gal_dis_Fragment"
+        tools:layout="@layout/fragment_gal_dis" />
+
+
+</navigation>
